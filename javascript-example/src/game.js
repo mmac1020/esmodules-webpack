@@ -9,25 +9,10 @@ function reset() {
   clickCounter = 0;
 }
 
-let updateCounter;
-
-export default updateCounter = function() {
+const updateCounter = function () {
   clickCounter++;
   console.log(clickCounter);
   if (clickCounter === 10) {
     win();
   }
-}
-
-/**
- 
-export updateCounter;
-
-export default function updateCounter() {
-  clickCounter++;
-  console.log(clickCounter);
-  if (clickCounter === 10) {
-    win();
-  }
-}
-*/
+};
