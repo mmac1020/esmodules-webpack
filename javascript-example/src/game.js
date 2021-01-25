@@ -9,10 +9,10 @@ function reset() {
   clickCounter = 0;
 }
 
-const updateCounter = function () {
+function updateCounter() {
   clickCounter++;
   console.log(clickCounter);
   if (clickCounter === 10) {
     win();
   }
-};
+}
