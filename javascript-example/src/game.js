@@ -9,7 +9,7 @@ function reset() {
   clickCounter = 0;
 }
 
-const updateCounter = function () {
+export const updateCounter = function () {
   clickCounter++;
   console.log(clickCounter);
   if (clickCounter === 10) {
